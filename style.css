@@ -2,6 +2,10 @@ body {
   position: absolute;
 }
 
+span {
+  font-size: 50px;
+}
+
 .location {
   position: relative;
   top: 50vh;
