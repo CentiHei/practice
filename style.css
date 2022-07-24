@@ -1,20 +1,21 @@
-body {
-  position: absolute;
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-span {
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+div > a {
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
-.location {
-  position: relative;
-  top: 50vh;
-  left: 45vw;
-}
-
-.image {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png");
-  background-size: cover;
-  height: 50px;
-  width: 50px;
+div > span {
+  font-weight: bold;
 }
